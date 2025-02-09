@@ -1,13 +1,20 @@
+prog Gimp gimp gimp
+
+includeprog icewm-menu-fdo --no-sep-others --seps
+menuprog Monitors ../devices/computer icewm-menu-xrandr
+menufile Toolbar folder toolbar
+
+############### EXAMPLE CONFIG ##################
 # This is an example for IceWM's menu definition file.
 #
 # Place your variants in /etc/X11/icewm or in $HOME/.icewm
 # since modifications to this file will be discarded when you
 # (re)install icewm.
 #
-prog Terminal ! x-terminal-emulator -ls
-prog "Web Browser" ! x-www-browser
-prog HexChat hexchat hexchat
-prog Gimp gimp gimp
+#prog Terminal ! x-terminal-emulator -ls
+#prog "Web Browser" ! x-www-browser
+#prog HexChat hexchat hexchat
+#prog Gimp gimp gimp
 #separator
 #menu Applications folder {
 #    menu Editors folder {
@@ -86,6 +93,7 @@ prog Gimp gimp gimp
 #    prog "Screen Saver" xlock xlock -nolock
 #    prog "Screen Lock" xlock xlock
 #}
-includeprog icewm-menu-fdo --no-sep-others --seps
-menuprog Monitors ../devices/computer icewm-menu-xrandr
-menufile Toolbar folder toolbar
+#includeprog icewm-menu-fdo --no-sep-others --seps
+#menuprog Monitors ../devices/computer icewm-menu-xrandr
+#menufile Toolbar folder toolbar
+########################################################

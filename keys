@@ -1,7 +1,5 @@
-################ CUSTOM #######################
-key "Super+Shift+Return"    alacritty
-key "Alt+Ctrl+b"            xdg-open about:blank
-key "Alt+Ctrl+s"            xdg-open https://www.google.com
+
+key "Super+Shift+Return"     alacritty
 
 key "XF86MonBrightnessUp"   brightnessctl set +10%
 key "XF86MonBrightnessDown" brightnessctl set 10%-
@@ -14,7 +12,7 @@ key "XF86AudioPrev"         playerctl previous
 key "XF86AudioPlay"         playerctl play-pause
 key "XF86AudioNext"         playerctl next
 
-################ CUSTOM ###########################
+##############  EXAMPLE CONFIG ######################
 # This is an example for icewm hotkey definition file.
 # It will be installed as /usr/share/icewm/keys.
 # Place your variants in /etc/X11/icewm or in $HOME/.icewm since
@@ -50,3 +48,4 @@ key "XF86AudioNext"         playerctl next
 #key "XF86Calculator"        /bin/sh -c "gnome-calculator || xcalc || ( type bc >/dev/null 2>&1 && x-terminal-emulator -e bc -l)"
 #
 #switchkey "Super+p"         icewm-menu-xrandr
+####################################################################
